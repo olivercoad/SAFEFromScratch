@@ -1,0 +1,22 @@
+source https://api.nuget.org/v3/index.json
+
+nuget FSharp.Core
+nuget Expecto 9.0.4
+nuget Fable.Browser.DOM 2.7.0
+nuget Fable.Core 3.6.0
+nuget Fable.Elmish 3.1.0
+nuget Fable.Elmish.Debugger 3.3.0
+nuget Fable.Elmish.HMR 5.1.0
+nuget Fable.Elmish.React 3.0.1
+nuget Fable.Mocha 2.11.0
+nuget Fable.Remoting.Client 7.16.0
+nuget Fable.Remoting.Giraffe 5.6.0
+nuget Fake.Core.Target 5.20.4
+nuget Fake.IO.FileSystem 5.20.4
+nuget Farmer 1.6.21
+nuget Feliz 1.56.0
+nuget Feliz.Bulma 2.18.0
+nuget Feliz.UseElmish 1.6.0
+nuget Microsoft.AspNetCore.Mvc.Testing 6.0.0
+nuget Microsoft.NET.Test.Sdk 16.11.0
+nuget Saturn 0.15.0

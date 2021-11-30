@@ -1,0 +1,4 @@
+Expecto
+Microsoft.AspNetCore.Mvc.Testing
+Microsoft.NET.Test.Sdk
+FSharp.Core

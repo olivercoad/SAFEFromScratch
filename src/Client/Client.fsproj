@@ -1,5 +1,5 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
@@ -14,7 +14,6 @@
     <!-- https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-options/errors-warnings#treatwarningsaserrors -->
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
-
   <ItemGroup>
     <Content Include="public\favicon.png" />
     <Compile Include="Index.fs" />
@@ -22,22 +21,8 @@
     <Content Include="Index.scss" />
     <Compile Include="App.fs" />
   </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Fable.Browser.DOM" Version="2.7.0" />
-    <PackageReference Include="Fable.Core" Version="3.6.0" />
-    <PackageReference Include="Fable.Elmish" Version="3.1.0" />
-    <PackageReference Include="Fable.Elmish.Debugger" Version="3.3.0" />
-    <PackageReference Include="Fable.Elmish.HMR" Version="5.1.0" />
-    <PackageReference Include="Fable.Elmish.React" Version="3.0.1" />
-    <PackageReference Include="Fable.Remoting.Client" Version="7.16.0" />
-    <PackageReference Include="Feliz" Version="1.56.0" />
-    <PackageReference Include="Feliz.Bulma" Version="2.18.0" />
-    <PackageReference Include="Feliz.UseElmish" Version="1.6.0" />
-  </ItemGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\Shared\Shared.fsproj" />
   </ItemGroup>
-
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
 </Project>

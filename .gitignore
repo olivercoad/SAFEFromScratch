@@ -30,3 +30,7 @@ deploy/
 dist/
 # source map files
 *.js.map
+
+# Paket
+packages/
+paket-files/
